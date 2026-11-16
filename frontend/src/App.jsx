@@ -3,6 +3,8 @@ import './App.css'
 import catIllustration from './assets/wonderfully-feline-cat.png';
 
 function App() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <>
       <header className="site-header">
@@ -11,10 +13,25 @@ function App() {
           Wonderfully Feline
         </a>
 
-        <nav className="main-nav" aria-label="Main navigation">
-          <a href="#home">Home</a>
-          <a href="#explore">Explore</a>
-          <a href="#saved">Saved</a>
+        <button
+          className={`menu-toogle ${menuOpen ? 'open' : ''}`}
+          type="button"
+          aria-label={menuOpen ? 'Close navigation menu' : 'Open navigation menu'}
+          aria-expanded={menuOpen}
+          aria-controls="main-navigation"
+          onClick={() => setMenuOpen(!menuOpen)}
+        >
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav className={`main-nav ${menuOpen ? 'open' : ''}`}
+          id="main-navigation"
+          aria-label="Main navigation"
+        >
+          <a href="#home" onClick={() => setMenuOpen(false)}>Home</a>
+          <a href="#explore" onClick={() => setMenuOpen(false)}>Explore</a>
+          <a href="#saved" onClick={() => setMenuOpen(false)}>Saved</a>
         </nav>
       </header>
 
