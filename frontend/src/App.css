@@ -306,7 +306,7 @@
 .explore-invitation h3 {
   margin: 0 0 0.8rem;
   color: var(--color-charcoal-blue);
-  font-size: clamp(2rem, 3.5vw, 2.7rem);
+  font-size: clamp(1rem, 2.5vw, 2rem);
   line-height: 1.2;
 }
 
@@ -423,29 +423,40 @@
 
   .behaviour {
     grid-column: 1;
-    grid-row: 1;
+    grid-row: 2;
   }
 
   .communication {
     grid-column: 2;
-    grid-row: 1;
+    grid-row: 2;
     width: min(155px, 100%);
   }
 
   .senses {
     grid-column: 1;
-    grid-row: 2;
+    grid-row: 3;
   }
 
   .humans {
     grid-column: 2;
-    grid-row: 2;
+    grid-row: 3;
   }
 
   .everyday {
     grid-column: 1 / 3;
-    grid-row: 3;
+    grid-row: 4;
     width: clamp(130px, 45vw, 155px);
+  }
+
+  .explore-invitation {
+    grid-column: 1 / -1;
+    grid-row: 1;
+    justify-self: center;
+    text-align: center;
+  }
+
+  .explore-invitation h3 {
+    font-size: 1.8rem;
   }
 }
 
