@@ -68,15 +68,62 @@ function App() {
         </section>
 
         <section className="discover-section" id="explore">
-          <p className="eyebrow">There's more than meets the whiskers</p>
+          <div className="discover-intro">
+            <p className="eyebrow">There's more than meets the whiskers</p>
 
-          <h2>Get to know the wonderfully feline world</h2>
+            <h2>Get to know the wonderfully feline world</h2>
 
-          <p>
-            Explore curious behaviours, remarkable senses and the little
-            ways cats communicate with us. There's something new around
-            every corner.
-          </p>
+            <p>
+              Explore curious behaviours, remarkable senses and the little
+              ways cats communicate with us. There's something new around
+              every corner.
+            </p>
+          </div>
+
+          <div className="category-composition">
+            <a href="#cat-behaviour" className="category-shape behaviour">
+              <span className="category-decoration" aria-hidden="true">🐾</span>
+              <span className="category-name">Cat Behaviour</span>
+              <span className="shape-accent" aria-hidden="true">✦</span>
+            </a>
+
+            <a href="#cat-communication" className="category-shape communication">
+              <span className="category-decoration" aria-hidden="true">〰</span>
+              <span className="category-name">Cat Communication</span>
+              <span className="shape-accent" aria-hidden="true">✧</span>
+            </a>
+
+            <a href="#feline-senses" className="category-shape senses">
+              <span className="category-decoration" aria-hidden="true">◉</span>
+              <span className="category-name">Feline Senses</span>
+              <span className="shape-accent" aria-hidden="true">✳</span>
+            </a>
+
+            <a href="#cats-and-humans" className="category-shape humans">
+              <span className="category-decoration" aria-hidden="true">♡</span>
+              <span className="category-name">Cats & Humans</span>
+              <span className="shape-accent" aria-hidden="true">♡</span>
+            </a>
+
+            <a href="#everyday-cat-life" className="category-shape everyday">
+              <span className="category-decoration" aria-hidden="true">z Z</span>
+              <span className="category-name">Everyday Cat Life</span>
+              <span className="shape-accent" aria-hidden="true">✦</span>
+            </a>
+
+            <div className="explore-invitation">
+              <h3>There's always more to discover.</h3>
+
+              <p>
+                Curious about something? Dive into our collection of feline
+                facts, fascinating behaviours and delightful discoveries.
+              </p>
+
+              <a href="#explore" className="explore-button">
+                Explore all topics
+              </a>
+            </div>
+          </div>
         </section>
       </main>
     </>
