@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import catIllustration from './assets/wonderfully-feline-cat.png';
+import kneadingCat from './assets/kneading-cat.png';
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -122,6 +123,51 @@ function App() {
               <a href="#explore" className="explore-button">
                 Explore all topics
               </a>
+            </div>
+          </div>
+        </section>
+
+        <section className="behaviour-section" id="cat-behaviour">
+          <div className="behaviour-intro">
+            <p className="eyebrow">A little insight into feline minds</p>
+
+            <h2>The Curious Cat</h2>
+
+            <h3>What makes cats tick?</h3>
+
+            <p>
+              From mysterious little habits to curious antics, there's
+              usually more going on than meets the eye.
+            </p>
+          </div>
+
+          <div className="behaviour-cards">
+            <div className="behaviour-card">
+              <div className="behaviour-card-illustration">
+                <img src={kneadingCat} alt="A fluffy grey tabby cat kneading a lavender cushion" />
+              </div>
+              <div className="behaviour-card-heading">
+                <h3>The kneading cat</h3>
+                <span className="toogle-icon" aria-hidden="true">+</span>
+              </div>
+
+              <p className="behaviour-question">Why do cats make biscuits?</p>
+
+              <div className="behaviour-card-content">
+                <p>
+                  Have you ever watched a cat rhythmically push its paws
+                  against a blanket, cushion or even your lap? This adorable
+                  behaviour is called kneading.
+                </p>
+
+                <div className="fun-fact">
+                  <strong>Little cat fact</strong>
+                  <p>
+                    Cats have scent glands in their paws, so kneading may also
+                    help leave their scent behind.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </section>

@@ -321,6 +321,97 @@
   margin-top: 1.5rem;
 }
 
+/* Behaviour section */
+.behaviour-section {
+  background-color: var(--color-yellow);
+  padding: 5rem 2rem;
+}
+
+.behaviour-intro {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+.behaviour-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.behaviour-card {
+  background-color: #fffaf0;
+  padding: 1.5rem;
+  border-radius: 1.25rem;
+  box-shadow: 0 4px 12px rgba(57, 75, 87, 0.08);
+}
+
+.behaviour-card-illustration {
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.behaviour-card-illustration img {
+  width: 100%;
+  max-width: 220px;
+  height: auto;
+  object-fit: contain;
+}
+
+.behaviour-card-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.behaviour-card-heading h3 {
+  margin: 0;
+}
+
+.toogle-icon {
+  font-size: 1.5rem;
+  color: var(--color-coral);
+  line-height: 1;
+}
+
+.behaviour-question {
+  color: var(--color-charcoal-blue);
+  font-weight: 600;
+  margin: 1rem 0;
+}
+
+.behaviour-card-content {
+  color: var(--color-charcoal-blue);
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+
+.fun-fact {
+  background-color: var(--color-blush);
+  padding: 1rem;
+  border-radius: 0.85rem;
+  margin-top: 1.25rem;
+}
+
+.fun-fact strong {
+  color: var(--color-coral);
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+.fun-fact p {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
 /* Responsive layout */
 
 @media (max-width: 900px) {
