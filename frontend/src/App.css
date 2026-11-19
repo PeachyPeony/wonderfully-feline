@@ -467,17 +467,17 @@
 .cat-thing-illustration {
   display: flex;
   align-items: center;
+  justify-content: center;
   justify-self: center;
   min-height: 280px;
-  background-color: #fffaf0;
-  border: 2px dashed var(--color-sage);
-  border-radius: 1.5rem;
 }
 
-.cat-thing-illustration::before {
-  content: "🐾";
-  font-size: 5rem;
-  opacity: 0.45;
+.cat-thing-image {
+  display: block;
+  width: 100%;
+  max-width: 350px;
+  min-height: auto;
+  object-fit: contain;
 }
 
 .cat-thing-text {

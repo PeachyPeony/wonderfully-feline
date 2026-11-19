@@ -5,6 +5,7 @@ import catIllustration from '../assets/wonderfully-feline-cat.png';
 import kneadingCat from '../assets/kneading-cat.png';
 import curiousCat from '../assets/curious-cat.png';
 import boxCat from '../assets/box-lover-cat.png';
+import nappingCat from '../assets/napping-cat.png'
 
 function Home() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -269,7 +270,8 @@ function Home() {
                 <section className="cat-thing-section">
                     <div className="cat-thing-content">
                         <div className="cat-thing-illustration">
-                            {/* Napping cat illustration goes here */}
+                            <img src={nappingCat} alt="A fluffy cream-coloured cat napping on its back on a lavender cushion"
+                                className="cat-thing-image" />
                         </div>
 
                         <div className="cat-thing-text">
