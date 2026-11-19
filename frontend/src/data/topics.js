@@ -150,4 +150,44 @@ export const topics = {
             'How cats build trust',
         ],
     },
+
+    'what-cat-ears-and-eyes-tell-us': {
+        category: 'Cat Communication',
+        title: 'What cat ears and eyes tell us',
+        introduction:
+            'A flick of an ear, a slow blink or a pair of wide eyes — cats communicate in many subtle ways. Their ears and eyes can offer fascinating clues about how they are feeling.',
+
+        article: [
+            {
+                heading: 'Listening with their ears',
+                paragraphs: [
+                    'A cat’s ears are wonderfully expressive. Their position and movement can help us understand where a cat’s attention is focused and how they might be feeling.',
+                    'Ears pointing forward often suggest interest or curiosity, while ears turned sideways or flattened against the head can indicate discomfort, fear or irritation.',
+                ],
+            },
+            {
+                heading: 'The language of cat eyes',
+                paragraphs: [
+                    'A cat’s eyes can reveal a lot about their mood. Soft, relaxed eyes often suggest that a cat feels comfortable, while wide-open eyes can indicate alertness, excitement or fear depending on the situation.',
+                    'Slow blinking is another lovely feline signal. When a cat gently closes and opens their eyes while looking at you, it can be a sign of trust and relaxation.',
+                ],
+            },
+            {
+                heading: 'Understanding the bigger picture',
+                paragraphs: [
+                    'Just like tail movements, ear and eye signals are best understood together with the rest of a cat’s body language.',
+                    'A cat with forward-facing ears and relaxed eyes may be happily curious, while flattened ears combined with wide eyes and a tense posture can suggest that they feel threatened. Giving them space when they seem uncomfortable helps them feel safe.',
+                ],
+            },
+        ],
+
+        funFact:
+            'Cats have a special reflective layer behind their retinas that helps them see in low light. It is also what makes their eyes appear to glow in the dark!',
+
+        relatedTopics: [
+            'Understanding tail language',
+            'Why cats purr and meow',
+            'How cats show affection',
+        ],
+    },
 }

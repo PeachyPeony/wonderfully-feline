@@ -25,8 +25,10 @@ const categories = [
                 title: 'Understanding tail language',
                 slug: 'understanding-tail-language',
             },
-            'What cat ears and eyes tell us',
-            'Why cats purr and meow',
+            {
+                title: 'What cat ears and eyes tell us',
+                slug: 'what-cat-ears-and-eyes-tell-us',
+            },
         ],
     },
     {
@@ -88,7 +90,8 @@ function Explore() {
                                         ) : topic.slug === 'the-science-behind-kneading' ||
                                             topic.slug === 'the-mystery-of-zoomies' ||
                                             topic.slug === 'why-cats-scratch' ||
-                                            topic.slug === 'understanding-tail-language' ? (
+                                            topic.slug === 'understanding-tail-language' ||
+                                            topic.slug === 'what-cat-ears-and-eyes-tell-us' ? (
                                             <Link to={`/topics/${topic.slug}`}>
                                                 {topic.title}
                                             </Link>
