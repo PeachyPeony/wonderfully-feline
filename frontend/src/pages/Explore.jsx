@@ -82,7 +82,8 @@ function Explore() {
                                     <li key={typeof topic === 'string' ? topic : topic.slug}>
                                         {typeof topic === 'string' ? (
                                             topic
-                                        ) : topic.slug === 'the-science-behind-kneading' ? (
+                                        ) : topic.slug === 'the-science-behind-kneading' ||
+                                            topic.slug === 'the-mystery-of-zoomies' ? (
                                             <Link to={`/topics/${topic.slug}`}>
                                                 {topic.title}
                                             </Link>
