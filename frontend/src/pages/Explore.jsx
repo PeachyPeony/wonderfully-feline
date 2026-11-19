@@ -21,7 +21,10 @@ const categories = [
     {
         name: 'Cat Communication',
         topics: [
-            'Understanding tail language',
+            {
+                title: 'Understanding tail language',
+                slug: 'understanding-tail-language',
+            },
             'What cat ears and eyes tell us',
             'Why cats purr and meow',
         ],
@@ -84,7 +87,8 @@ function Explore() {
                                             topic
                                         ) : topic.slug === 'the-science-behind-kneading' ||
                                             topic.slug === 'the-mystery-of-zoomies' ||
-                                            topic.slug === 'why-cats-scratch' ? (
+                                            topic.slug === 'why-cats-scratch' ||
+                                            topic.slug === 'understanding-tail-language' ? (
                                             <Link to={`/topics/${topic.slug}`}>
                                                 {topic.title}
                                             </Link>

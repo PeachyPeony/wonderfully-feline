@@ -109,4 +109,45 @@ export const topics = {
             'Why play matters to cats',
         ],
     },
+
+    'understanding-tail-language': {
+        category: 'Cat Communication',
+        title: 'Understanding tail language',
+        introduction:
+            'A cat’s tail can tell us a lot about how they are feeling. From an upright greeting to a gentle swish, every movement offers a little clue about what might be going on in that furry mind.',
+
+        article: [
+            {
+                heading: 'A tail full of signals',
+                paragraphs: [
+                    'Cats use their tails to communicate with other cats and with people. The position and movement of a tail can offer clues about a cat’s mood, confidence and intentions.',
+                    'Learning to recognise these signals can help us understand our feline companions a little better.',
+                ],
+            },
+            {
+                heading: 'What different tail positions mean',
+                paragraphs: [
+                    'A tail held upright, sometimes with a softly curved tip, often signals a friendly greeting. It can mean your cat is feeling comfortable and confident.',
+                    'A low or tucked tail may suggest that a cat feels uncertain, frightened or uncomfortable. A puffed-up tail, on the other hand, is often a sign of fear or surprise.',
+                    'A gently swishing tail can indicate interest or concentration, while quick, forceful flicks may suggest irritation or frustration.',
+                ],
+            },
+            {
+                heading: 'Look at the whole picture',
+                paragraphs: [
+                    'A cat’s tail is only one part of their body language. Their ears, eyes, posture and the situation around them all help tell the full story.',
+                    'For example, a moving tail does not always mean a cat wants to play or be petted. Giving them space when they seem uncomfortable is a good way to respect their signals.',
+                ],
+            },
+        ],
+
+        funFact:
+            'Some cats wrap their tails around their favourite humans or other cats as a friendly gesture. Think of it as a little feline hug!',
+
+        relatedTopics: [
+            'What cat ears and eyes tell us',
+            'Why cats purr and meow',
+            'How cats build trust',
+        ],
+    },
 }
