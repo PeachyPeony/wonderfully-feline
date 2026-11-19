@@ -1,10 +1,21 @@
+import { Link } from 'react-router'
+
 const categories = [
     {
         name: 'Cat Behaviour',
         topics: [
-            'The science behind kneading',
-            'The mystery of zoomies',
-            'Why cats scratch',
+            {
+                title: 'The science behind kneading',
+                slug: 'the-science-behind-kneading',
+            },
+            {
+                title: 'The mystery of zoomies',
+                slug: 'the-mystery-of-zoomies',
+            },
+            {
+                title: 'Why cats scratch',
+                slug: 'why-cats-scratch',
+            },
         ],
     },
     {
@@ -68,7 +79,17 @@ function Explore() {
 
                             <ul>
                                 {category.topics.map((topic) => (
-                                    <li key={topic}>{topic}</li>
+                                    <li key={typeof topic === 'string' ? topic : topic.slug}>
+                                        {typeof topic === 'string' ? (
+                                            topic
+                                        ) : topic.slug === 'the-science-behind-kneading' ? (
+                                            <Link to={`/topics/${topic.slug}`}>
+                                                {topic.title}
+                                            </Link>
+                                        ) : (
+                                            topic.title
+                                        )}
+                                    </li>
                                 ))}
                             </ul>
                         </div>
