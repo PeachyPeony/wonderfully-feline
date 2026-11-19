@@ -83,7 +83,8 @@ function Explore() {
                                         {typeof topic === 'string' ? (
                                             topic
                                         ) : topic.slug === 'the-science-behind-kneading' ||
-                                            topic.slug === 'the-mystery-of-zoomies' ? (
+                                            topic.slug === 'the-mystery-of-zoomies' ||
+                                            topic.slug === 'why-cats-scratch' ? (
                                             <Link to={`/topics/${topic.slug}`}>
                                                 {topic.title}
                                             </Link>

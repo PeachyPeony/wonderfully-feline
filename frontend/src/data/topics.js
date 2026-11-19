@@ -69,4 +69,44 @@ export const topics = {
             'Why play matters to cats',
         ],
     },
+
+    'why-cats-scratch': {
+        category: 'Cat Behaviour',
+        title: 'Why cats scratch',
+        introduction:
+            'A favourite sofa, a scratching post or the corner of a rug — cats seem to find plenty of places to put their claws to work. But scratching is about much more than keeping their claws sharp.',
+
+        article: [
+            {
+                heading: 'A natural feline instinct',
+                paragraphs: [
+                    'Scratching is a completely natural behaviour for cats. They use it to maintain their claws by helping remove the worn outer layers, revealing the sharper claws underneath.',
+                    'It also gives cats a satisfying way to stretch their bodies, extend their legs and work their muscles.',
+                ],
+            },
+            {
+                heading: 'More than just claw care',
+                paragraphs: [
+                    'Cats have scent glands in their paws. When they scratch a surface, they leave behind scent as well as visible marks. This helps them communicate and mark familiar areas in their surroundings.',
+                    'Scratching can also be a way for cats to release energy, express excitement or simply enjoy a good stretch.',
+                ],
+            },
+            {
+                heading: 'Encouraging good scratching habits',
+                paragraphs: [
+                    'Since scratching is a natural need, the goal is not to stop it but to provide suitable places for it. Scratching posts, sturdy boards and different textures can give cats appealing alternatives to furniture.',
+                    'Placing scratching surfaces near favourite resting spots or areas where your cat already likes to scratch can help encourage their use.',
+                ],
+            },
+        ],
+
+        funFact:
+            'Cats often scratch shortly after waking up. It is a convenient way to stretch their muscles and get ready for the day!',
+
+        relatedTopics: [
+            'The science behind kneading',
+            'The mystery of zoomies',
+            'Why play matters to cats',
+        ],
+    },
 }
