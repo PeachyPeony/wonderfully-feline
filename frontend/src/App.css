@@ -343,10 +343,6 @@
   align-items: start;
 }
 
-.behaviour-cards.all-expanded {
-  align-items: stretch;
-}
-
 .behaviour-card {
   background-color: #fffaf0;
   padding: 1.5rem;
