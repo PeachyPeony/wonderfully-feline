@@ -346,4 +346,42 @@ export const topics = {
         ],
     },
 
+    'how-cats-show-affection': {
+        category: 'Cats & Humans',
+        title: 'How cats show affection',
+        introduction: 'Cats may have a reputation for being independent, but they have plenty of ways to show they care. From gentle head bumps to slow blinks, their affection often appears in small, easily missed gestures.',
+
+        article: [
+            {
+                heading: 'A language of little gestures',
+                paragraphs: [
+                    'Cats communicate affection in many subtle ways. A gentle head bump, a cheek rub or brushing against your legs can be a friendly greeting and a way of sharing their scent with you.',
+                    'Some cats also show affection by following their favourite people from room to room or choosing to settle nearby. Simply wanting to spend time in your company can be a sign of a close bond.',
+                ],
+            },
+            {
+                heading: 'The comfort of closeness',
+                paragraphs: [
+                    'When a cat chooses to curl up beside you, sit on your lap or sleep near you, it often means they feel safe and comfortable. Resting is a vulnerable moment for cats, so choosing to relax around someone can be a meaningful sign of trust.',
+                    'Grooming is another social behaviour. A cat that gently licks your hand or hair may be treating you as part of their social group, much as cats groom one another.',
+                ],
+            },
+            {
+                heading: 'Every cat has their own way',
+                paragraphs: [
+                    'Not every cat enjoys cuddles or being picked up. Some prefer to show affection through play, quiet companionship or a friendly greeting at the door.',
+                    'Learning what your cat enjoys is part of building a good relationship. Paying attention to their body language and respecting their boundaries helps make those moments together positive for both of you.',
+                ],
+            },
+        ],
+
+        funFact: 'When cats rub their cheeks against you, they leave scent from glands around their face. It is one way they mark familiar people and places as part of their social world!',
+
+        relatedTopics: [
+            'How cats build trust',
+            'Understanding tail language',
+            'Why cats purr and meow',
+        ],
+    },
+
 }
