@@ -66,7 +66,12 @@ const categories = [
     {
         name: 'Everyday Cat Life',
         topics: [
-            'Why cats sleep so much',
+            {
+
+                title: 'Why cats sleep so much',
+                slug: 'why-cats-sleep-so-much',
+            },
+
             'Why play matters to cats',
         ],
     },
@@ -114,7 +119,8 @@ function Explore() {
                                             topic.slug === 'how-cats-see-the-world' ||
                                             topic.slug === 'the-remarkable-power-of-whiskers' ||
                                             topic.slug === 'how-cats-build-trust' ||
-                                            topic.slug === 'how-cat-show-affection' ? (
+                                            topic.slug === 'how-cats-show-affection' ||
+                                            topic.slug === 'why-cats-sleep-so-much' ? (
                                             <Link to={`/topics/${topic.slug}`}>
                                                 {topic.title}
                                             </Link>

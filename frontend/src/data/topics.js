@@ -384,4 +384,42 @@ export const topics = {
         ],
     },
 
+    'why-cats-sleep-so-much': {
+        category: 'Everyday Cat Life',
+        title: 'Why cats sleep so much',
+        introduction: 'If your cat seems to spend most of the day curled up asleep, you are certainly not alone. Cats are expert nappers, but there are some fascinating reasons behind all those cosy snoozes.',
+
+        article: [
+            {
+                heading: 'Born to conserve energy',
+                paragraphs: [
+                    'Cats can sleep for around 12 to 16 hours a day, and some may sleep even longer. This is partly because their bodies are adapted for short bursts of activity rather than constant movement.',
+                    'In the wild, hunting requires plenty of energy. Resting between active periods helps cats conserve their strength for when they need it.',
+                ],
+            },
+            {
+                heading: 'A natural rhythm',
+                paragraphs: [
+                    'Cats are often most active around dawn and dusk. This pattern is known as crepuscular behaviour and is linked to the times when many small animals are naturally active.',
+                    'Your indoor cat may not need to hunt for dinner, but those instincts are still part of their natural rhythm. This can explain why they suddenly become playful just as you are getting ready for bed!',
+                ],
+            },
+            {
+                heading: 'Finding the perfect nap spot',
+                paragraphs: [
+                    'Cats are particular about where they sleep. They often look for warm, quiet and comfortable places where they can relax without feeling disturbed.',
+                    'Some prefer a cosy hiding place, while others choose a sunny windowsill or a favourite spot beside their human. Providing a few comfortable resting places gives your cat the freedom to choose.',
+                ],
+            },
+        ],
+
+        funFact: 'Cats can experience both light and deep sleep. Even when they appear to be dozing, they may still be alert enough to notice sounds and movement around them!',
+
+        relatedTopics: [
+            'The mystery of zoomies',
+            'Why play matters to cats',
+            'How cats show affection',
+        ],
+    },
+
 }
