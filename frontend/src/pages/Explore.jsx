@@ -52,7 +52,12 @@ const categories = [
     {
         name: 'Cats & Humans',
         topics: [
-            'How cats build trust',
+            {
+
+                title: 'How cats build trust',
+                slug: 'how-cats-build-trust',
+            },
+
             'How cats show affection',
         ],
     },
@@ -105,7 +110,8 @@ function Explore() {
                                             topic.slug === 'what-cat-ears-and-eyes-tell-us' ||
                                             topic.slug === 'why-cats-purr-and-meow' ||
                                             topic.slug === 'how-cats-see-the-world' ||
-                                            topic.slug === 'the-remarkable-power-of-whiskers' ? (
+                                            topic.slug === 'the-remarkable-power-of-whiskers' ||
+                                            topic.slug === 'how-cats-build-trust' ? (
                                             <Link to={`/topics/${topic.slug}`}>
                                                 {topic.title}
                                             </Link>

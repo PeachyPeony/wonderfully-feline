@@ -308,4 +308,42 @@ export const topics = {
         ],
     },
 
+    'how-cats-build-trust': {
+        category: 'Cats & Humans',
+        title: 'How cats build trust',
+        introduction: 'Trust between a cat and a human rarely happens overnight. It grows through patience, gentle interactions and the little everyday moments that help a cat feel safe and comfortable.',
+
+        article: [
+            {
+                heading: 'Trust takes time',
+                paragraphs: [
+                    'Cats are naturally cautious animals, especially around unfamiliar people and surroundings. Some may approach new people straight away, while others prefer to observe from a safe distance before getting closer.',
+                    'Allowing a cat to set the pace is one of the best ways to build a positive relationship. Giving them space and letting them choose when to interact helps them feel more in control.',
+                ],
+            },
+            {
+                heading: 'The importance of feeling safe',
+                paragraphs: [
+                    'A cat is more likely to trust someone when they feel secure in their environment. Quiet resting places, familiar routines and access to food, water and a clean litter box all contribute to that sense of security.',
+                    'Avoid forcing contact or picking up a cat that wants to be left alone. Respecting their boundaries shows them that they can feel comfortable around you without worrying about unwanted attention.',
+                ],
+            },
+            {
+                heading: 'Small gestures that make a difference',
+                paragraphs: [
+                    'Gentle interactions can help strengthen the bond between a cat and their human. Speaking softly, offering a hand to sniff and using slow blinks are all ways to communicate without overwhelming them.',
+                    'Playtime, treats and predictable daily routines can also help create positive associations. Over time, these small moments can turn into a strong and trusting relationship.',
+                ],
+            },
+        ],
+
+        funFact: 'A slow blink from a cat is often called a feline kiss. Try slowly closing and opening your eyes when your cat looks at you and see if they return the gesture!',
+
+        relatedTopics: [
+            'How cats show affection',
+            'Understanding tail language',
+            'Why cats purr and meow',
+        ],
+    },
+
 }
