@@ -42,6 +42,10 @@ const categories = [
                 title: 'How cats see the world',
                 slug: 'how-cats-see-the-world',
             },
+            {
+                title: 'The remarkable power of whiskers',
+                slug: 'the-remarkable-power-of-whiskers',
+            },
 
         ],
     },
@@ -100,7 +104,8 @@ function Explore() {
                                             topic.slug === 'understanding-tail-language' ||
                                             topic.slug === 'what-cat-ears-and-eyes-tell-us' ||
                                             topic.slug === 'why-cats-purr-and-meow' ||
-                                            topic.slug === 'how-cats-see-the-world' ? (
+                                            topic.slug === 'how-cats-see-the-world' ||
+                                            topic.slug === 'the-remarkable-power-of-whiskers' ? (
                                             <Link to={`/topics/${topic.slug}`}>
                                                 {topic.title}
                                             </Link>

@@ -268,4 +268,44 @@ export const topics = {
             'Why cats play',
         ],
     },
+
+
+    'the-remarkable-power-of-whiskers': {
+        category: 'Feline Senses',
+        title: 'The remarkable power of whiskers',
+        introduction: 'Those long, delicate whiskers are more than just a charming feline feature. They are highly sensitive tools that help cats explore their surroundings, sense movement and navigate the world around them.',
+
+        article: [
+            {
+                heading: 'More than ordinary hairs',
+                paragraphs: [
+                    'A cat’s whiskers, also known as vibrissae, are much thicker and more deeply rooted than ordinary hairs. Each one sits in a follicle surrounded by sensitive nerve endings that detect even tiny movements.',
+                    'This makes whiskers incredibly useful sensory tools. They can pick up subtle vibrations and changes in the air, helping cats gather information about objects and movement nearby.',
+                ],
+            },
+            {
+                heading: 'Navigating the world',
+                paragraphs: [
+                    'Whiskers help cats explore spaces, especially when lighting is poor. They can detect nearby objects and help a cat judge whether there is enough room to move through an area.',
+                    'Whiskers also help cats sense the position of objects close to their faces, where their eyesight is less effective. This can be particularly helpful when investigating something up close.',
+                ],
+            },
+            {
+                heading: 'A little window into their mood',
+                paragraphs: [
+                    'The position of a cat’s whiskers can offer clues about how they are feeling. Whiskers pointing forwards may indicate curiosity or excitement, while whiskers pulled back close to the face can be a sign of fear or discomfort.',
+                    'Because whiskers are so sensitive, they should never be trimmed. Cats rely on them for important sensory information, and touching or pulling them can be uncomfortable.',
+                ],
+            },
+        ],
+
+        funFact: 'Cats have whiskers not only on their cheeks but also above their eyes, on their chin and on the backs of their front legs!',
+
+        relatedTopics: [
+            'How cats see the world',
+            'What cat ears and eyes tell us',
+            'Why cats scratch',
+        ],
+    },
+
 }
