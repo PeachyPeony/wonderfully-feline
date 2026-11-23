@@ -38,8 +38,11 @@ const categories = [
     {
         name: 'Feline Senses',
         topics: [
-            'How cats see the world',
-            'The remarkable power of whiskers',
+            {
+                title: 'How cats see the world',
+                slug: 'how-cats-see-the-world',
+            },
+
         ],
     },
     {
@@ -96,7 +99,8 @@ function Explore() {
                                             topic.slug === 'why-cats-scratch' ||
                                             topic.slug === 'understanding-tail-language' ||
                                             topic.slug === 'what-cat-ears-and-eyes-tell-us' ||
-                                            topic.slug === 'why-cats-purr-and-meow' ? (
+                                            topic.slug === 'why-cats-purr-and-meow' ||
+                                            topic.slug === 'how-cats-see-the-world' ? (
                                             <Link to={`/topics/${topic.slug}`}>
                                                 {topic.title}
                                             </Link>

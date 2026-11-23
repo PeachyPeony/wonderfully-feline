@@ -229,4 +229,43 @@ export const topics = {
             'How cats build trust',
         ],
     },
+
+
+    'how-cats-see-the-world': {
+        category: 'Feline Senses',
+        title: 'How cats see the world',
+        introduction: 'Cats experience the world differently from us. Their eyes are specially adapted for spotting movement and seeing in low light, giving them a fascinating view of their surroundings.',
+
+        article: [
+            {
+                heading: 'Seeing in low light',
+                paragraphs: [
+                    'Cats are well known for their ability to move around in dim light. Their eyes are designed to make the most of available light, which helps them see when the world is getting dark.',
+                    'Behind the retina, cats have a reflective layer called the tapetum lucidum. It reflects light back through the retina, giving the eye another chance to detect it. This is also what makes cats’ eyes appear to glow when light shines on them in the dark.',
+                ],
+            },
+            {
+                heading: 'A different kind of vision',
+                paragraphs: [
+                    'Cats do not see colours in quite the same way humans do. They have fewer types of colour-detecting cone cells, which means their colour vision is more limited. Blues and yellows are thought to be easier for them to distinguish than reds and greens.',
+                    'Their vision is also adapted for detecting movement. Even a tiny movement across the room can catch a cat’s attention, especially when it resembles the movement of potential prey.',
+                ],
+            },
+            {
+                heading: 'Built for a hunter',
+                paragraphs: [
+                    'A cat’s eyes face forward, giving them overlapping fields of vision. This helps them judge distances when watching, chasing and pouncing on moving objects.',
+                    'Although cats are excellent at spotting movement, they do not see every detail as sharply as humans do. Their eyesight is one part of a remarkable set of senses that helps them navigate and explore their surroundings.',
+                ],
+            },
+        ],
+
+        funFact: 'Cats have a wider field of view than humans — around 200 degrees compared with our approximately 180 degrees!',
+
+        relatedTopics: [
+            'The remarkable power of whiskers',
+            'Understanding tail language',
+            'Why cats play',
+        ],
+    },
 }
