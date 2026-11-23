@@ -71,8 +71,10 @@ const categories = [
                 title: 'Why cats sleep so much',
                 slug: 'why-cats-sleep-so-much',
             },
-
-            'Why play matters to cats',
+            {
+                title: 'Why play matters to cats',
+                slug: 'why-play-matters-to-cats',
+            },
         ],
     },
 ]
@@ -120,7 +122,8 @@ function Explore() {
                                             topic.slug === 'the-remarkable-power-of-whiskers' ||
                                             topic.slug === 'how-cats-build-trust' ||
                                             topic.slug === 'how-cats-show-affection' ||
-                                            topic.slug === 'why-cats-sleep-so-much' ? (
+                                            topic.slug === 'why-cats-sleep-so-much' ||
+                                            topic.slug === 'why-play-matters-to-cats' ? (
                                             <Link to={`/topics/${topic.slug}`}>
                                                 {topic.title}
                                             </Link>

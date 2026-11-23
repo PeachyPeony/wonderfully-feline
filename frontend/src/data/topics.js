@@ -422,4 +422,41 @@ export const topics = {
         ],
     },
 
+    'why-play-matters-to-cats': {
+        category: 'Everyday Cat Life',
+        title: 'Why play matters to cats',
+        introduction: 'A chasing toy, a rolling ball or a mysterious feather — playtime is about much more than entertainment. It gives cats an outlet for their natural instincts and helps keep both their minds and bodies active.',
+
+        article: [
+            {
+                heading: 'Play brings out the hunter',
+                paragraphs: [
+                    'Even the most relaxed house cat has natural hunting instincts. Chasing, stalking, pouncing and grabbing are all behaviours that come naturally to cats.',
+                    'Interactive toys that move like small animals can give cats a safe way to practise these behaviours. Wand toys, toy mice and lightweight balls can all turn an ordinary afternoon into an exciting little hunting adventure.',
+                ],
+            },
+            {
+                heading: 'Keeping body and mind active',
+                paragraphs: [
+                    'Regular play encourages movement, helping cats stay active and maintain a healthy body. It can be especially valuable for indoor cats, who may have fewer opportunities to explore and exercise naturally.',
+                    'Play also provides mental stimulation. Following a moving toy, working out how to reach it or exploring a new puzzle can keep a curious cat engaged and help prevent boredom.',
+                ],
+            },
+            {
+                heading: 'Making playtime part of everyday life',
+                paragraphs: [
+                    'Short, regular play sessions can be more enjoyable than one long session. Let your cat set the pace, and give them opportunities to chase, catch and interact with their toys.',
+                    'Rotating toys can help keep things interesting, while puzzle feeders and simple games encourage cats to explore and use their problem-solving skills. Remember to use toys rather than your hands or feet, so play stays fun and safe for everyone.',
+                ],
+            },
+        ],
+
+        funFact: 'Many cats enjoy a little reward after a successful play session. Ending a hunting-style game by letting your cat catch the toy can make playtime especially satisfying!',
+
+        relatedTopics: [
+            'The mystery of zoomies',
+            'Why cats sleep so much',
+            'How cats build trust',
+        ],
+    },
 }
