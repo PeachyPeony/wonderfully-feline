@@ -190,4 +190,43 @@ export const topics = {
             'How cats show affection',
         ],
     },
+
+
+    'why-cats-purr-and-meow': {
+        category: 'Cat Communication',
+        title: 'Why cats purr and meow',
+        introduction: 'A gentle rumble, a cheerful greeting or a persistent little meow — cats have plenty of ways to make themselves heard. But what are they trying to tell us?',
+
+        article: [
+            {
+                heading: 'The meaning behind a purr',
+                paragraphs: [
+                    'Purring is one of the sounds most closely associated with cats. They often purr when they feel relaxed and content, such as when they are curled up somewhere cosy or enjoying a gentle stroke.',
+                    'However, purring does not always mean a cat is happy. Cats may also purr when they feel stressed, uncomfortable or unwell. It can be a way of soothing themselves in different situations.',
+                ],
+            },
+            {
+                heading: 'Why cats meow',
+                paragraphs: [
+                    'Cats use meowing in many different ways, but adult cats rarely meow to communicate with other cats. Instead, they often use these familiar sounds to get our attention.',
+                    'A meow might be a greeting, a request for food, or simply a way of asking for a little company. Over time, cats can even develop different meows for communicating with the people they know best.',
+                ],
+            },
+            {
+                heading: 'Learning to listen',
+                paragraphs: [
+                    'Every cat has their own way of communicating. Some are naturally chatty, while others prefer quieter sounds or rely more on body language.',
+                    'Paying attention to the situation, your cat’s body language and the sounds they make can help you understand what they might be trying to say.',
+                ],
+            },
+        ],
+
+        funFact: 'Cats can recognise their owner’s voice and may respond differently to it, even if they sometimes choose to ignore it!',
+
+        relatedTopics: [
+            'Understanding tail language',
+            'What cat ears and eyes tell us',
+            'How cats build trust',
+        ],
+    },
 }
