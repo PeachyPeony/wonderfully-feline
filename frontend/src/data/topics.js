@@ -1,7 +1,12 @@
+import kneadingTopic from '../assets/kneading-topic.png'
+import zoomiesCat from '../assets/zoomies-cat.png'
+
 export const topics = {
     'the-science-behind-kneading': {
         category: 'Cat Behaviour',
         title: 'The science behind kneading',
+        image: kneadingTopic,
+        imageAlt: 'An orange tabby cat kneading a sage-green cushion',
         introduction:
             'Ever wondered why cats rhythmically push their paws against soft surfaces? This familiar behaviour has some fascinating explanations.',
 
@@ -33,6 +38,8 @@ export const topics = {
     'the-mystery-of-zoomies': {
         category: 'Cat Behaviour',
         title: 'The mystery of zoomies',
+        image: zoomiesCat,
+        imageAlt: 'A playful black-and-white cat leaping through the air',
         introduction:
             'One moment your cat is peacefully relaxing, and the next they’re racing around the house like a tiny whirlwind. But what causes these sudden bursts of energy?',
 

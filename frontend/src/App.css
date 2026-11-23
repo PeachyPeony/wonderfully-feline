@@ -681,6 +681,15 @@
   font-size: 1.1rem;
 }
 
+.topic-image {
+  display: block;
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  object-fit: contain;
+  margin: 0 auto 4rem;
+}
+
 .topic-article {
   max-width: 750px;
   margin: 0 auto 3rem;

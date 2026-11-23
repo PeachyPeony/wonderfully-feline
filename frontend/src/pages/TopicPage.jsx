@@ -28,7 +28,18 @@ function TopicPage() {
                     {topic.introduction}
                 </p>
             </section>
-            <section className="topic-image-placeholder">
+            <section className="topic-illustration">
+                {topic.image ? (
+                    <img
+                        src={topic.image}
+                        alt={topic.imageAlt}
+                        className="topic-image"
+                    />
+                ) : (
+                    <div className="topic-image-placeholder">
+                        Topic illustration
+                    </div>
+                )}
 
             </section>
 
