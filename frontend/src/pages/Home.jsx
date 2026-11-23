@@ -8,7 +8,6 @@ import boxCat from '../assets/box-lover-cat.png';
 import nappingCat from '../assets/napping-cat.png'
 
 function Home() {
-    const [menuOpen, setMenuOpen] = useState(false);
     const [openCards, setOpenCards] = useState([]);
     const toggleCard = (cardName) => {
         setOpenCards((currentOpenCards) =>
@@ -20,34 +19,6 @@ function Home() {
 
     return (
         <>
-            <header className="site-header">
-                <a href="#home" className="logo">
-                    <span aria-hidden="true">✿</span>
-                    Wonderfully Feline
-                </a>
-
-                <button
-                    className={`menu-toogle ${menuOpen ? 'open' : ''}`}
-                    type="button"
-                    aria-label={menuOpen ? 'Close navigation menu' : 'Open navigation menu'}
-                    aria-expanded={menuOpen}
-                    aria-controls="main-navigation"
-                    onClick={() => setMenuOpen(!menuOpen)}
-                >
-                    <span></span>
-                    <span></span>
-                </button>
-
-                <nav className={`main-nav ${menuOpen ? 'open' : ''}`}
-                    id="main-navigation"
-                    aria-label="Main navigation"
-                >
-                    <a href="#home" onClick={() => setMenuOpen(false)}>Home</a>
-                    <a href="#explore" onClick={() => setMenuOpen(false)}>Explore</a>
-                    <a href="#saved" onClick={() => setMenuOpen(false)}>Saved</a>
-                </nav>
-            </header>
-
             <main>
                 <section className="welcome-section" id="home">
                     <div className="welcome-content">
@@ -285,24 +256,6 @@ function Home() {
                         </div>
                     </div>
                 </section>
-                <footer className="site-footer">
-                    <div className="footer-content">
-                        <a href="#home" className="footer-logo">
-                            <span aria-hidden="true">✿</span>
-                            Wonderfully Feline
-                        </a>
-
-                        <p>Made with curiosity and a lot of love for cats.</p>
-
-                        <a href="#home" className="back-to-top">
-                            Back to top ↑
-                        </a>
-
-                        <small>
-                            © {new Date().getFullYear()} Wonderfully Feline
-                        </small>
-                    </div>
-                </footer>
             </main >
         </>
     );

@@ -66,7 +66,11 @@ function TopicPage() {
 
                 <ul>
                     {topic.relatedTopics.map((relatedTopic) => (
-                        <li key={relatedTopic}>{relatedTopic}</li>
+                        <li key={relatedTopic}>
+                            <a href={`/topics/${relatedTopic.toLowerCase().replaceAll(' ', '-')}`}>
+                                {relatedTopic}
+                            </a>
+                        </li>
                     ))}
                 </ul>
             </section>

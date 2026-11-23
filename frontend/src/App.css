@@ -691,12 +691,12 @@
 }
 
 .topic-article {
-  max-width: 750px;
+  max-width: 700px;
   margin: 0 auto 3rem;
 }
 
 .topic-article section {
-  margin-bottom: 2.5rem;
+  margin-bottom: 3rem;
 }
 
 .topic-article h2 {
@@ -705,8 +705,9 @@
 }
 
 .topic-article p {
-  line-height: 1.8;
-  margin-bottom: 1rem;
+  font-size: 1.05rem;
+  line-height: 1.9;
+  margin-bottom: 1.25rem;
 }
 
 .topic-fun-fact {
@@ -751,6 +752,40 @@
 .related-topics li {
   padding: 0.75rem 0;
   border-bottom: 1px solid rgba(57, 75, 87, 0.2);
+}
+
+.related-topics a {
+  color: var(--color-blue);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.related-topics a:hover {
+  color: var(--color-coral);
+  text-decoration: underline;
+}
+
+.related-topics a:focus-visible {
+  outline: 2px solid var(--color-coral);
+  outline-offset: 4px;
+  border-radius: 3px;
+}
+
+.saved-page {
+  max-width: 900px;
+  min-height: 60vh;
+  margin: 0 auto;
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.saved-page h1 {
+  margin-bottom: 1.25rem;
+  color: var(--color-charcoal-blue);
+}
+
+.saved-page p {
+  line-height: 1.8;
 }
 
 /* Responsive layout */
