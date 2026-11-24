@@ -5,10 +5,11 @@ import TopicPage from './pages/TopicPage'
 import Saved from './pages/Saved'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import { SavedTopicsProvider } from './context/SavedTopicsContext'
 
 function App() {
   return (
-    <>
+    <SavedTopicsProvider>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -17,7 +18,7 @@ function App() {
         <Route path="/topics/:slug" element={<TopicPage />} />
       </Routes>
       <Footer />
-    </>
+    </SavedTopicsProvider>
   )
 }
 

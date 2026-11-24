@@ -1,9 +1,12 @@
 import { useParams } from 'react-router'
 import { topics } from '../data/topics'
+import { useSavedTopics } from '../context/SavedTopicsContext'
 
 function TopicPage() {
     const { slug } = useParams()
     const topic = topics[slug]
+    const { toggleSavedTopic, isTopicSaved } = useSavedTopics()
+    const isSaved = isTopicSaved(slug)
 
     if (!topic) {
         return <h1>Topic not found</h1>
@@ -28,6 +31,11 @@ function TopicPage() {
                     {topic.introduction}
                 </p>
             </section>
+            <div className="save-topic">
+                <button type="button" onClick={() => toggleSavedTopic(slug)} aria-pressed={isSaved}>
+                    {isSaved ? 'Remove from saved' : 'Save topic'}
+                </button>
+            </div>
             <section className="topic-illustration">
                 {topic.image ? (
                     <img

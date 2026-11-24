@@ -788,6 +788,97 @@
   line-height: 1.8;
 }
 
+.saved-topics {
+  max-width: 550px;
+  margin: 3rem auto 0;
+  display: grid;
+  gap: 1.5rem
+}
+
+.saved-topic {
+  background-color: var(--color-blush);
+  padding: 1.5rem 2rem;
+  border-radius: 20px;
+  text-align: left;
+}
+
+.saved-topic h2 {
+  margin-bottom: 0.5rem;
+}
+
+.saved-topic h2 a {
+  color: var(--color-charcoal-blue);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.saved-topic h2 a:hover {
+  color: var(--color-coral);
+}
+
+.saved-topic h2 a:focus-visible {
+  outline: 2px solid var(--color-coral);
+  outline-offset: 4px;
+  border-radius: 3px;
+}
+
+.saved-topic p {
+  margin-bottom: 1rem;
+  color: var(--color-charcoal-blue);
+}
+
+.saved-topic button {
+  padding: 0.65rem 1.2rem;
+  border: none;
+  border-radius: 25px;
+  background-color: var(--color-coral);
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.saved-topic button:hover {
+  background-color: var(--color-sage);
+  transform: translateY(-2px);
+}
+
+.saved-topic button:focus-visible {
+  outline: 2px solid var(--color-charcoal-blue);
+  outline-offset: 4px;
+}
+
+.save-topic {
+  display: flex;
+  justify-content: center;
+  margin: -1rem auto 3rem;
+}
+
+.save-topic button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 25px;
+  background-color: var(--color-sage);
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.save-topic button:hover {
+  background-color: var(--color-coral);
+  transform: translateY(-2px);
+}
+
+.save-topic button:focus-visible {
+  outline: 2px solid var(--color-charcoal-blue);
+  outline-offset: 4px;
+}
+
 /* Responsive layout */
 
 @media (max-width: 900px) {
