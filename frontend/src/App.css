@@ -961,6 +961,315 @@
   border-radius: 3px;
 }
 
+
+/* Cat Fact Jar page */
+
+.cat-fact-jar-page {
+  text-align: center;
+  padding: 2rem 1.5rem;
+}
+
+.cat-fact-jar-intro {
+  margin-bottom: 1rem;
+}
+
+.cat-fact-jar-intro h1 {
+  color: var(--color-charcoal-blue);
+  margin-bottom: 0.5rem;
+}
+
+.cat-fact-jar-message {
+  color: var(--color-charcoal-blue);
+  font-size: 1.15rem;
+  margin: 0;
+}
+
+.jar-button {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--color-charcoal-blue);
+  background: var(--color-yellow);
+  border: 2px solid var(--color-charcoal-blue);
+  border-radius: 2rem;
+  padding: 0.8rem 1.8rem;
+  cursor: pointer;
+}
+
+.jar-tagline {
+  color: var(--color-charcoal-blue);
+  font-size: 0.95rem;
+  margin-top: 1rem;
+}
+
+/* Cat Fact Jar */
+
+.jar-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2.5rem 1rem;
+  position: relative;
+}
+
+/* Jar lid */
+
+.jar-lid {
+  width: 85px;
+  height: 32px;
+  background: var(--color-sage);
+  border: 2px solid var(--color-charcoal-blue);
+  border-radius: 6px;
+  position: absolute;
+  left: calc(50% - 218px);
+  bottom: calc(2.5rem + 8px);
+  margin-bottom: 0;
+  transform: rotate(-12deg);
+  z-index: 1;
+  box-shadow: 0 3px 5px rgba(57, 75, 87, 0.15);
+}
+
+.jar-lid::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 6px;
+  background: var(--color-light-sage);
+  border: 1px solid var(--color-charcoal-blue);
+  border-radius: 4px;
+  bottom: -7px;
+  left: -2px;
+}
+
+/* Glass jar */
+
+.jar {
+  width: 220px;
+  height: 290px;
+  position: relative;
+  overflow: hidden;
+  border: 3px solid var(--color-sage);
+  border-top: 6px solid var(--color-sage);
+  border-radius: 25% 25% 18% 18% / 12% 12% 10% 10%;
+  background: rgba(220, 231, 224, 0.35);
+  box-shadow:
+    inset 8px 0 12px rgba(255, 255, 255, 0.5),
+    inset -8px 0 12px rgba(139, 169, 154, 0.15),
+    0 5px 12px rgba(57, 75, 87, 0.12);
+}
+
+/* Glass highlights */
+
+.jar::before {
+  content: "";
+  position: absolute;
+  top: 18px;
+  left: 13px;
+  width: 9px;
+  height: 75%;
+  background: rgba(255, 255, 255, 0.55);
+  border-radius: 50%;
+}
+
+.jar::after {
+  content: "";
+  position: absolute;
+  top: 18px;
+  right: 12px;
+  width: 4px;
+  height: 55%;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 50%;
+}
+
+/* Jar shaking animation */
+.jar.shaking {
+  animation: jar-shake 0.6s ease-in-out;
+}
+
+@keyframes jar-shake {
+  0% {
+    transform: rotate(0);
+  }
+
+  20% {
+    transform: rotate(-4deg);
+  }
+
+  40% {
+    transform: rotate(4deg);
+  }
+
+  60% {
+    transform: rotate(-3deg);
+  }
+
+  80% {
+    transform: rotate(3deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}
+
+/* Paper slips */
+
+.jar-slips {
+  position: absolute;
+  inset: 35px 12px 12px;
+}
+
+.paper-slip {
+  position: absolute;
+  display: block;
+  width: 65px;
+  height: 35px;
+  border: 1px solid rgba(57, 75, 87, 0.25);
+  border-radius: 3px;
+  box-shadow: 0 2px 3px rgba(57, 75, 87, 0.1);
+}
+
+.paper-slip::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 12px;
+  height: 12px;
+  background: rgba(255, 255, 255, 0.45);
+  clip-path: polygon(0 0, 100% 100%, 100% 0);
+}
+
+.paper-slip-one {
+  background: var(--color-blush);
+  left: 5px;
+  bottom: 25px;
+  transform: rotate(-15deg);
+}
+
+.paper-slip-two {
+  background: var(--color-pink);
+  left: 75px;
+  bottom: 35px;
+  transform: rotate(12deg);
+}
+
+.paper-slip-three {
+  background: var(--color-yellow);
+  left: 35px;
+  bottom: 75px;
+  transform: rotate(8deg);
+}
+
+.paper-slip-four {
+  background: var(--color-light-sage);
+  left: 85px;
+  bottom: 100px;
+  transform: rotate(-12deg);
+}
+
+.paper-slip-five {
+  background: var(--color-blush);
+  left: 10px;
+  bottom: 125px;
+  transform: rotate(18deg);
+}
+
+/* Paper slip shuffling animation */
+.jar-slips.shuffling .paper-slip {
+  animation: slip-shuffle 0.6s ease-in-out;
+}
+
+.jar-slips.shuffling .paper-slip-two {
+  animation-delay: -0.1s;
+}
+
+.jar-slips.shuffling .paper-slip-three {
+  animation-delay: -0.2s;
+}
+
+.jar-slips.shuffling .paper-slip-four {
+  animation-delay: -0.3s;
+}
+
+.jar-slips.shuffling .paper-slip-five {
+  animation-delay: -0.15s;
+}
+
+.jar-slips.shuffling {
+  animation: slips-shuffle 0.6s ease-in-out;
+}
+
+@keyframes slips-shuffle {
+  0% {
+    transform: translateY(0);
+  }
+
+  30% {
+    transform: translateY(-6px);
+  }
+
+  60% {
+    transform: translateY(3px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Emerging paper slip */
+.emerging-slip {
+  position: absolute;
+  width: 65px;
+  height: 35px;
+  background: var(--color-yellow);
+  border: 1px solid var(--color-charcoal-blue);
+  border-radius: 3px;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  box-shadow: 0 2px 3px rgba(57, 75, 87, 0.1);
+  animation: slip-emerge 0.7s ease-out forwards;
+  opacity: 0;
+}
+
+@keyframes slip-emerge {
+  from {
+    top: 150px;
+    opacity: 0;
+    transform: translateX(-50%) rotate(0);
+  }
+
+  to {
+    top: -10px;
+    opacity: 1;
+    transform: translateX(-50%) rotate(-8deg);
+  }
+}
+
+/* Cat fact card */
+.fact-card {
+  max-width: 420px;
+  margin: 1.5rem auto 0;
+  padding: 1.5rem 2rem;
+  background: var(--color-light-sage);
+  border: 2px solid var(--color-sage);
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(57, 75, 87, 0.1);
+}
+
+.fact-card-content {
+  color: var(--color-charcoal-blue);
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Saved page */
 .saved-page {
   max-width: 900px;
   min-height: 60vh;

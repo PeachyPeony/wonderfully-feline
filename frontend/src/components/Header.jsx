@@ -30,6 +30,7 @@ function Header() {
             >
                 <Link to="/" onClick={() => setMenuOpen(false)}>Home</Link>
                 <Link to="/explore" onClick={() => setMenuOpen(false)}>Explore</Link>
+                <Link to="/cat-fact-jar" onClick={() => setMenuOpen(false)}>Cat Fact Jar</Link>
                 <Link to="/saved" onClick={() => setMenuOpen(false)}>Saved</Link>
             </nav>
         </header>
