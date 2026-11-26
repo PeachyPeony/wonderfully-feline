@@ -1,5 +1,6 @@
 import kneadingTopic from '../assets/kneading-topic.png'
 import zoomiesCat from '../assets/zoomies-cat.png'
+import tailLanguageCat from '../assets/tail-language-cat.png'
 
 export const topics = {
     'the-science-behind-kneading': {
@@ -120,6 +121,8 @@ export const topics = {
     'understanding-tail-language': {
         category: 'Cat Communication',
         title: 'Understanding tail language',
+        image: tailLanguageCat,
+        imageAlt: 'A warm brown tabby cat sitting with its tail raised and gently curved',
         introduction:
             'A cat’s tail can tell us a lot about how they are feeling. From an upright greeting to a gentle swish, every movement offers a little clue about what might be going on in that furry mind.',
 
