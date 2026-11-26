@@ -625,6 +625,178 @@
   border-bottom: none;
 }
 
+/* Interactive experiences */
+
+.interactive-experience {
+  max-width: 1000px;
+  margin: 6rem auto 0;
+}
+
+.interactive-intro {
+  max-width: 700px;
+  margin: 0 auto 3rem;
+  text-align: center;
+}
+
+.interactive-intro h2 {
+  margin-bottom: 1rem;
+}
+
+.interactive-intro p:not(.eyebrow) {
+  line-height: 1.7;
+}
+
+.interactive-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 3rem;
+}
+
+.body-language-stage {
+  min-height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-blush);
+  border-radius: 24px;
+  color: var(--color-charcoal-blue);
+}
+
+.body-language-information {
+  background-color: #f8f3ee;
+  padding: 2rem;
+  border-radius: 24px;
+}
+
+.body-language-information h3 {
+  color: var(--color-charcoal-blue);
+  margin-bottom: 1.5rem;
+}
+
+.body-language-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 2rem
+}
+
+.body-language-controls button {
+  padding: 0.65rem 1.1rem;
+  border: 1px solid var(--color-sage);
+  border-radius: 25px;
+  background-color: #ffffff;
+  color: var(--color-charcoal-blue);
+  font: inherit;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.body-language-controls button[aria-pressed="true"] {
+  background-color: var(--color-sage);
+  color: #ffffff;
+}
+
+.body-language-controls button:hover {
+  background-color: var(--color-sage);
+  color: #ffffff;
+}
+
+.body-language-controls button:focus-visible {
+  outline: 2px solid var(--color-charcoal-blue);
+  outline-offset: 4px;
+}
+
+.body-language-details h4 {
+  color: var(--color-charcoal-blue);
+  margin-bottom: 0.75rem;
+}
+
+.body-language-details p {
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.body-language-details p:last-child {
+  background-color: var(--color-sage);
+  color: #ffffff;
+  padding: 1rem 1.25rem;
+  border-radius: 14px;
+}
+
+/* Feline senses experience */
+
+.feline-senses-stage {
+  min-height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e5e9e5;
+  border-radius: 24px;
+  color: var(--color-charcoal-blue);
+}
+
+.feline-senses-information {
+  background-color: #f8f3ee;
+  padding: 2rem;
+  border-radius: 24px;
+}
+
+.feline-senses-information h3 {
+  color: var(--color-charcoal-blue);
+  margin-bottom: 1.5rem;
+}
+
+.feline-senses-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.feline-senses-controls button {
+  padding: 0.65rem 1.1rem;
+  border: 1px solid var(--color-blue);
+  border-radius: 25px;
+  background-color: #ffffff;
+  color: var(--color-charcoal-blue);
+  font: inherit;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.feline-senses-controls button[aria-pressed="true"] {
+  background-color: var(--color-blue);
+  color: #ffffff;
+}
+
+.feline-senses-controls button:hover {
+  background-color: var(--color-blue);
+  color: #ffffff;
+}
+
+.feline-senses-controls button:focus-visible {
+  outline: 2px solid var(--color-charcoal-blue);
+  outline-offset: 4px;
+}
+
+.feline-senses-details h4 {
+  color: var(--color-charcoal-blue);
+  margin-bottom: 0.75rem;
+}
+
+.feline-senses-details p {
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.feline-senses-details p:last-child {
+  background-color: var(--color-blue);
+  color: #ffffff;
+  padding: 1rem 1.25rem;
+  border-radius: 14px;
+}
+
 /* Topic page */
 
 .topic-page {
@@ -879,6 +1051,8 @@
   outline-offset: 4px;
 }
 
+
+
 /* Responsive layout */
 
 @media (max-width: 900px) {
@@ -914,6 +1088,16 @@
     grid-column: auto;
     width: auto;
     justify-self: stretch;
+  }
+
+  .interactive-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .body-language-stage,
+  .feline-senses-stage {
+    min-height: 350px;
   }
 }
 

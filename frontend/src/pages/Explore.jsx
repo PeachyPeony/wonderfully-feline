@@ -1,4 +1,6 @@
 import { Link } from 'react-router'
+import BodyLanguageExplorer from '../components/BodyLanguageExplorer'
+import FelineSensesExplorer from '../components/FelineSensesExplorer'
 
 const categories = [
     {
@@ -137,6 +139,8 @@ function Explore() {
                     ))}
                 </div>
             </section>
+            <BodyLanguageExplorer />
+            <FelineSensesExplorer />
         </main>
     )
 }
