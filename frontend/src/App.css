@@ -1256,6 +1256,7 @@
   margin: 1.5rem auto 0;
   padding: 1.5rem 2rem;
   background: var(--color-light-sage);
+  color: var(--color-charcoal-blue);
   border: 2px solid var(--color-sage);
   border-radius: 1rem;
   box-shadow: 0 4px 10px rgba(57, 75, 87, 0.1);
