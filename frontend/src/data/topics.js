@@ -1,6 +1,10 @@
 import kneadingTopic from '../assets/kneading-topic.png'
 import zoomiesCat from '../assets/zoomies-cat.png'
+import catScratching from '../assets/scratching-cat.png'
 import tailLanguageCat from '../assets/tail-language-cat.png'
+import catEarsAndEyes from '../assets/ears-and-eyes-cat.png'
+import catPurringAndMeowing from '../assets/purring-and-meowing-cat.png'
+
 
 export const topics = {
     'the-science-behind-kneading': {
@@ -81,6 +85,8 @@ export const topics = {
     'why-cats-scratch': {
         category: 'Cat Behaviour',
         title: 'Why cats scratch',
+        image: catScratching,
+        imgAlt: 'A grey tabby cat stretching up and scratching a rounded beige vertical panel with both front paws.',
         introduction:
             'A favourite sofa, a scratching post or the corner of a rug — cats seem to find plenty of places to put their claws to work. But scratching is about much more than keeping their claws sharp.',
 
@@ -164,6 +170,8 @@ export const topics = {
     'what-cat-ears-and-eyes-tell-us': {
         category: 'Cat Communication',
         title: 'What cat ears and eyes tell us',
+        image: catEarsAndEyes,
+        imgAlt: 'A black cat with muted green eyes, one ear turned slightly sideways and the other facing forward attentively.',
         introduction:
             'A flick of an ear, a slow blink or a pair of wide eyes — cats communicate in many subtle ways. Their ears and eyes can offer fascinating clues about how they are feeling.',
 
@@ -205,6 +213,8 @@ export const topics = {
     'why-cats-purr-and-meow': {
         category: 'Cat Communication',
         title: 'Why cats purr and meow',
+        image: catPurringAndMeowing,
+        imgAlt: 'A fluffy blue-grey tabby cat with golden-yellow eyes, looking content while gently opening its mouth to meow.',
         introduction: 'A gentle rumble, a cheerful greeting or a persistent little meow — cats have plenty of ways to make themselves heard. But what are they trying to tell us?',
 
         article: [
